@@ -1,3 +1,5 @@
+# this code should be run on r-studio to attain the respective outputs 
+
 library(dplyr)
 library(syuzhet)
 library(sentimentr)
@@ -61,8 +63,6 @@ polarity1 %>%
 
 
 #creating word clouds 
-
-
 
 #word cloud for amazon mobile reviews
 review.corpus=Corpus(VectorSource(review))
